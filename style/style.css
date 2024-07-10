@@ -7,7 +7,6 @@
 }
 /*banner style start*/
 .banner-conatiner {
-  border: 1px solid orangered;
   max-width: 1600px;
   height: 652px;
   background-image: url(../assets/Hero-bg.png);
@@ -23,16 +22,14 @@
   justify-content: flex-start;
   align-items: center;
   margin: 26px auto 44px;
-  border: 1px solid black;
 }
 
 .banner-content img {
   width: 210px;
-  height: 228.9px;
+  height: 228px;
 }
 
 .banner-text {
-  border: 1px solid gold;
   width: 1140px;
   height: 310px;
   margin-top: 32px;
@@ -52,7 +49,6 @@
 .banner-descriptin {
   width: 994px;
   height: 73px;
-  border: 1px solid;
   margin-top: 24px;
   align-items: center;
   color: black;
@@ -61,7 +57,7 @@
   text-align: center;
 }
 
-.banner-button {
+.button-primary {
   width: 170px;
   height: 50px;
   background-color: black;
@@ -70,10 +66,89 @@
   margin-top: 20px;
 }
 
-.banner-button a {
+.button-primary a {
   text-decoration: none;
   color: white;
   font-size: 15px;
 }
 
 /*banner style end*/
+
+/*why web development style start*/
+
+.webdevelopment-container {
+  max-width: 1300px;
+  height: 1395px;
+  margin: 74px auto;
+}
+
+.webdevelopment-content {
+  width: 1140px;
+  height: 1235px;
+  margin: 80px auto;
+}
+
+.box-header {
+  width: 1042px;
+  height: 115px;
+  margin: 0 auto 48px;
+}
+
+.box-container {
+  width: 1044px;
+  height: 240px;
+  margin: 48px auto;
+  background-color: #fcfcfc;
+  box-shadow: 15px 25px #fcfcfc;
+}
+
+.box-header {
+  text-align: center;
+}
+
+.box-titel {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box-description {
+  font-size: 15px;
+  color: rgb(25, 25, 25);
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.text-box {
+  width: 500px;
+  height: 225px;
+  padding: 0;
+}
+
+.text-box-titel {
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.text-box-description {
+  margin-bottom: 5px;
+}
+
+.text-box-2 {
+  width: 500px;
+  height: 225px;
+  padding: 0;
+  margin: 0 240px 0 0;
+}
+
+.images {
+  width: 300px;
+}
+/*why web development style end*/

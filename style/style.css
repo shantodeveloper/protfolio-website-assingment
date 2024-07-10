@@ -7,7 +7,7 @@
 }
 /*banner style start*/
 .banner-conatiner {
-  max-width: 1600px;
+  max-width: 2000px;
   height: 600px;
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@
 }
 
 .banner-text {
-  width: 1140px;
+  max-width: 1140px;
   height: 310px;
   margin-top: 32px;
   display: flex;

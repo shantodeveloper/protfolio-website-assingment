@@ -8,7 +8,7 @@
 /*banner style start*/
 .banner-conatiner {
   max-width: 1600px;
-  height: 652px;
+  height: 600px;
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -185,3 +185,46 @@
 }
 
 /*my Inspiration style end*/
+
+/*my current target style start*/
+.current-target-container {
+  max-width: 1300px;
+  height: 500px;
+  margin: 100px auto;
+}
+.current-target-section {
+  text-align: center;
+}
+.current-titel {
+  font-size: 35px;
+  font-weight: 800px;
+  margin-bottom: 25px;
+}
+.current-description {
+  font-size: 15px;
+  line-height: 22px;
+}
+.my-target-skill {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 80px;
+}
+.target-box {
+  width: 250px;
+  height: 180px;
+  border-radius: 10px;
+  line-height: 25px;
+  padding: 13px;
+  text-align: start;
+}
+#html-bg-color {
+  background: rgba(255, 76, 30, 0.05);
+}
+#css-bg-color {
+  background: rgba(0, 76, 232, 0.05);
+}
+#js-bg-color {
+  background: rgba(255, 223, 0, 0.05);
+}
+/*my current target style end*/
